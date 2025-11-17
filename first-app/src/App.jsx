@@ -9,11 +9,15 @@ function App() {
 
   return (
     <>
-      <ButtonComponent innerText="Ciao" />
-      <ButtonComponent innerText="Buongiorno" />
-      <ButtonComponent innerText="Arrivederci" />
-      <ImgComponent src="https://placecats.com/300/200" alt="ImmagineCat" />
-      <ImgComponent src="https://placebear.com/300/200" alt="ImmagineOrso" />
+      <div id="buttonDiv">
+        <ButtonComponent innerText="Ciao" />
+        <ButtonComponent innerText="Buongiorno" />
+        <ButtonComponent innerText="Arrivederci" />
+      </div>
+      <div id="imgDiv">
+        <ImgComponent src="https://placecats.com/300/200" alt="ImmagineCat" />
+        <ImgComponent src="https://placebear.com/300/200" alt="ImmagineOrso" />
+      </div>
 
       <div>
         <a href="https://vite.dev" target="_blank">

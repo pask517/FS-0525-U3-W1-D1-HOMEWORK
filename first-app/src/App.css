@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+#buttonDiv {
+  margin-bottom: 1em;
+}
+.buttons {
+  margin-right: 1em;
+}
